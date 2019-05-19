@@ -27,7 +27,7 @@
                 <path d="M637 95 L753 95 L753 129 L637 129 L637 95 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath5">
-                <path d="M777 95 L893 95 L893 145 L777 145 L777 95 Z"/>
+                <path d="M778 95 L893 95 L893 145 L778 145 L778 95 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath6">
                 <path d="M917 95 L1001 95 L1001 145 L917 145 L917 95 Z"/>
@@ -123,7 +123,7 @@
                   x="638" y="121" clip-path="url(#clipPath4)" stroke="none">replace Y with TRUE</text><text xml:space="preserve"
                   x="803" y="105" clip-path="url(#clipPath5)" stroke="none">Dump rows</text><text xml:space="preserve"
                   x="802" y="121" clip-path="url(#clipPath5)" stroke="none">with invalid </text><text xml:space="preserve"
-                  x="778" y="137" clip-path="url(#clipPath5)" stroke="none">Long and Lat values</text><text xml:space="preserve"
+                  x="779" y="137" clip-path="url(#clipPath5)" stroke="none">Long and Lat values</text><text xml:space="preserve"
                   x="918" y="105" clip-path="url(#clipPath6)" stroke="none">Long and Lat</text><text xml:space="preserve"
                   x="924" y="121" clip-path="url(#clipPath6)" stroke="none">to REGION</text><text xml:space="preserve"
                   x="929" y="137" clip-path="url(#clipPath6)" stroke="none">converter</text><text x="36"
@@ -498,7 +498,7 @@ rkJggg==" xlink:actuate="onLoad"/>
                   xml:space="preserve">Dump rows</text><text x="802" y="121"
                   clip-path="url(#clipPath5)"
                   text-rendering="optimizeLegibility" stroke="none"
-                  xml:space="preserve">with invalid </text><text x="778" y="137"
+                  xml:space="preserve">with invalid </text><text x="779" y="137"
                   clip-path="url(#clipPath5)"
                   text-rendering="optimizeLegibility" stroke="none"
                   xml:space="preserve">Long and Lat values</text><text x="918"
@@ -855,17 +855,17 @@ rkJggg==" xlink:actuate="onLoad"/>
         <g fill="rgb(150,150,150)" text-rendering="optimizeLegibility"
            font-family="&apos;Noto Sans&apos;" stroke-linecap="butt"
            stroke="rgb(150,150,150)">
+            <line clip-path="url(#clipPath31)" fill="none" x1="979" x2="987"
+                  y1="55" y2="55"/>
+            <line clip-path="url(#clipPath31)" fill="none" x1="987" x2="1040"
+                  y1="55" y2="55"/>
+            <line clip-path="url(#clipPath31)" fill="none" x1="1040" x2="1048"
+                  y1="55" y2="55"/>
             <line clip-path="url(#clipPath31)" fill="none" x1="279" x2="287"
                   y1="55" y2="55"/>
             <line clip-path="url(#clipPath31)" fill="none" x1="287" x2="460"
                   y1="55" y2="55"/>
             <line clip-path="url(#clipPath31)" fill="none" x1="460" x2="468"
-                  y1="55" y2="55"/>
-            <line clip-path="url(#clipPath31)" fill="none" x1="719" x2="727"
-                  y1="55" y2="55"/>
-            <line clip-path="url(#clipPath31)" fill="none" x1="727" x2="800"
-                  y1="55" y2="55"/>
-            <line clip-path="url(#clipPath31)" fill="none" x1="800" x2="808"
                   y1="55" y2="55"/>
             <line clip-path="url(#clipPath31)" fill="none" x1="859" x2="867"
                   y1="55" y2="55"/>
@@ -873,11 +873,11 @@ rkJggg==" xlink:actuate="onLoad"/>
                   y1="55" y2="55"/>
             <line clip-path="url(#clipPath31)" fill="none" x1="920" x2="928"
                   y1="55" y2="55"/>
-            <line clip-path="url(#clipPath31)" fill="none" x1="979" x2="987"
+            <line clip-path="url(#clipPath31)" fill="none" x1="99" x2="107"
                   y1="55" y2="55"/>
-            <line clip-path="url(#clipPath31)" fill="none" x1="987" x2="1040"
+            <line clip-path="url(#clipPath31)" fill="none" x1="107" x2="220"
                   y1="55" y2="55"/>
-            <line clip-path="url(#clipPath31)" fill="none" x1="1040" x2="1048"
+            <line clip-path="url(#clipPath31)" fill="none" x1="220" x2="228"
                   y1="55" y2="55"/>
             <line clip-path="url(#clipPath31)" fill="none" x1="519" x2="527"
                   y1="45" y2="45"/>
@@ -887,11 +887,11 @@ rkJggg==" xlink:actuate="onLoad"/>
                   y1="55" y2="55"/>
             <line clip-path="url(#clipPath31)" fill="none" x1="660" x2="668"
                   y1="55" y2="55"/>
-            <line clip-path="url(#clipPath31)" fill="none" x1="99" x2="107"
+            <line clip-path="url(#clipPath31)" fill="none" x1="719" x2="727"
                   y1="55" y2="55"/>
-            <line clip-path="url(#clipPath31)" fill="none" x1="107" x2="220"
+            <line clip-path="url(#clipPath31)" fill="none" x1="727" x2="800"
                   y1="55" y2="55"/>
-            <line clip-path="url(#clipPath31)" fill="none" x1="220" x2="228"
+            <line clip-path="url(#clipPath31)" fill="none" x1="800" x2="808"
                   y1="55" y2="55"/>
         </g>
     </g>
