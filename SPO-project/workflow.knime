@@ -8,14 +8,10 @@
 <entry key="authored-by" type="xstring" value="jasmina"/>
 <entry key="authored-when" type="xstring" value="2019-05-07 10:55:56 +0200"/>
 <entry key="lastEdited-by" type="xstring" value="jasmina"/>
-<entry key="lastEdited-when" type="xstring" value="2019-05-22 20:47:45 +0200"/>
+<entry key="lastEdited-when" type="xstring" value="2019-05-22 21:28:56 +0200"/>
 </config>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
 <entry key="state" type="xstring" value="CONFIGURED"/>
-<config key="nodecontainer_message">
-<entry key="type" type="xstring" value="ERROR"/>
-<entry key="message" type="xstring" value="Error in sub flow."/>
-</config>
 <config key="workflow_credentials"/>
 <config key="nodes">
 <config key="node_1">
