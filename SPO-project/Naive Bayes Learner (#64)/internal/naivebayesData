@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="naivebayesDataModel">
+<entry key="ClassColumnName" type="xstring" value="Count_CATEGORIES"/>
+<config key="ClassColumnType">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<entry key="skipMissingVals" type="xboolean" value="false"/>
+<entry key="Threshold" type="xdouble" value="1.0E-4"/>
+<config key="SkippedAttributes">
+<entry key="SkippedAttributesCounter" type="xint" value="0"/>
+</config>
+<config key="AttributeModelSection">
+<entry key="AttributeModelCounter" type="xint" value="8"/>
+<config key="AttributeModelData_0">
+<entry key="attributeName" type="xstring" value="YEAR"/>
+<entry key="type" type="xstring" value="NumericalModel"/>
+<entry key="skipMissingVals" type="xboolean" value="false"/>
+<entry key="numberOfMissingValues" type="xint" value="0"/>
+<entry key="invalidCause" type="xstring" isnull="true" value=""/>
+<config key="data">
+<entry key="noOfClasses" type="xlong" value="4"/>
+<config key="classValueData_0">
+<entry key="classValue" type="xstring" value="1"/>
+<entry key="MissingValCounter" type="xlong" value="0"/>
+<entry key="noOfRows" type="xlong" value="9975"/>
+<entry key="mean" type="xdouble" value="2016.497543859643"/>
+<entry key="sd" type="xdouble" value="0.9781905796776467"/>
+</config>
+<config key="classValueData_1">
+<entry key="classValue" type="xstring" value="2"/>
+<entry key="MissingValCounter" type="xlong" value="0"/>
+<entry key="noOfRows" type="xlong" value="12385"/>
+<entry key="mean" type="xdouble" value="2016.489705288654"/>
+<entry key="sd" type="xdouble" value="0.9632682772355283"/>
+</config>
+<config key="classValueData_2">
+<entry key="classValue" type="xstring" value="3"/>
+<entry key="MissingValCounter" type="xlong" value="0"/>
+<entry key="noOfRows" type="xlong" value="318"/>
+<entry key="mean" type="xdouble" value="2016.490566037737"/>
+<entry key="sd" type="xdouble" value="0.9522871324819432"/>
+</config>
+<config key="classValueData_3">
+<entry key="classValue" type="xstring" value="5"/>
+<entry key="MissingValCounter" type="xlong" value="0"/>
+<entry key="noOfRows" type="xlong" value="1"/>
+<entry key="mean" type="xdouble" value="2016.0"/>
+<entry key="sd" type="xdouble" value="1.0E-4"/>
+</config>
+</config>
+</config>
+<config key="AttributeModelData_1">
+<entry key="attributeName" type="xstring" value="MONTH"/>
+<entry key="type" type="xstring" value="NumericalModel"/>
+<entry key="skipMissingVals" type="xboolean" value="false"/>
+<entry key="numberOfMissingValues" type="xint" value="0"/>
+<entry key="invalidCause" type="xstring" isnull="true" value=""/>
+<config key="data">
+<entry key="noOfClasses" type="xlong" value="4"/>
+<config key="classValueData_0">
+<entry key="classValue" type="xstring" value="1"/>
+<entry key="MissingValCounter" type="xlong" value="0"/>
+<entry key="noOfRows" type="xlong" value="9975"/>
+<entry key="mean" type="xdouble" value="6.398095238095211"/>
+<entry key="sd" type="xdouble" value="3.5063345210580867"/>
+</config>
+<config key="classValueData_1">
+<entry key="classValue" type="xstring" value="2"/>
+<entry key="MissingValCounter" type="xlong" value="0"/>
+<entry key="noOfRows" type="xlong" value="12385"/>
+<entry key="mean" type="xdouble" value="6.55559144125959"/>
+<entry key="sd" type="xdouble" value="3.322122320582312"/>
+</config>
+<config key="classValueData_2">
+<entry key="classValue" type="xstring" value="3"/>
+<entry key="MissingValCounter" type="xlong" value="0"/>
+<entry key="noOfRows" type="xlong" value="318"/>
+<entry key="mean" type="xdouble" value="6.682389937106917"/>
+<entry key="sd" type="xdouble" value="3.031340701214313"/>
+</config>
+<config key="classValueData_3">
+<entry key="classValue" type="xstring" value="5"/>
+<entry key="MissingValCounter" type="xlong" value="0"/>
+<entry key="noOfRows" type="xlong" value="1"/>
+<entry key="mean" type="xdouble" value="3.0"/>
+<entry key="sd" type="xdouble" value="1.0E-4"/>
+</config>
+</config>
+</config>
+<config key="AttributeModelData_2">
+<entry key="attributeName" type="xstring" value="DAY_OF_WEEK"/>
+<entry key="type" type="xstring" value="NominalModel"/>
+<entry key="skipMissingVals" type="xboolean" value="false"/>
+<entry key="numberOfMissingValues" type="xint" value="0"/>
+<entry key="invalidCause" type="xstring" isnull="true" value=""/>
+<config key="data">
+<entry key="maxNoOfAttrs" type="xlong" value="20"/>
+<entry key="noOfClasses" type="xlong" value="4"/>
+<config key="attributeValues">
+<entry key="array-size" type="xint" value="7"/>
+<entry key="0" type="xstring" value="Friday"/>
+<entry key="1" type="xstring" value="Monday"/>
+<entry key="2" type="xstring" value="Saturday"/>
+<entry key="3" type="xstring" value="Sunday"/>
+<entry key="4" type="xstring" value="Thursday"/>
+<entry key="5" type="xstring" value="Tuesday"/>
+<entry key="6" type="xstring" value="Wednesday"/>
+</config>
+<config key="classValueData_0">
+<entry key="classValue" type="xstring" value="1"/>
+<entry key="noOfRows" type="xlong" value="9975"/>
+<entry key="MissingValCounter" type="xlong" value="0"/>
+<config key="attributeValues">
+<entry key="array-size" type="xint" value="7"/>
+<entry key="0" type="xstring" value="Monday"/>
+<entry key="1" type="xstring" value="Thursday"/>
+<entry key="2" type="xstring" value="Friday"/>
+<entry key="3" type="xstring" value="Sunday"/>
+<entry key="4" type="xstring" value="Wednesday"/>
+<entry key="5" type="xstring" value="Tuesday"/>
+<entry key="6" type="xstring" value="Saturday"/>
+</config>
+<config key="attributeCounter">
+<entry key="array-size" type="xint" value="7"/>
+<entry key="0" type="xlong" value="1392"/>
+<entry key="1" type="xlong" value="1352"/>
+<entry key="2" type="xlong" value="1283"/>
+<entry key="3" type="xlong" value="1723"/>
+<entry key="4" type="xlong" value="1381"/>
+<entry key="5" type="xlong" value="1388"/>
+<entry key="6" type="xlong" value="1456"/>
+</config>
+</config>
+<config key="classValueData_1">
+<entry key="classValue" type="xstring" value="2"/>
+<entry key="noOfRows" type="xlong" value="12385"/>
+<entry key="MissingValCounter" type="xlong" value="0"/>
+<config key="attributeValues">
+<entry key="array-size" type="xint" value="7"/>
+<entry key="0" type="xstring" value="Monday"/>
+<entry key="1" type="xstring" value="Thursday"/>
+<entry key="2" type="xstring" value="Friday"/>
+<entry key="3" type="xstring" value="Sunday"/>
+<entry key="4" type="xstring" value="Wednesday"/>
+<entry key="5" type="xstring" value="Tuesday"/>
+<entry key="6" type="xstring" value="Saturday"/>
+</config>
+<config key="attributeCounter">
+<entry key="array-size" type="xint" value="7"/>
+<entry key="0" type="xlong" value="1842"/>
+<entry key="1" type="xlong" value="1846"/>
+<entry key="2" type="xlong" value="1880"/>
+<entry key="3" type="xlong" value="1458"/>
+<entry key="4" type="xlong" value="1812"/>
+<entry key="5" type="xlong" value="1821"/>
+<entry key="6" type="xlong" value="1726"/>
+</config>
+</config>
+<config key="classValueData_2">
+<entry key="classValue" type="xstring" value="3"/>
+<entry key="noOfRows" type="xlong" value="318"/>
+<entry key="MissingValCounter" type="xlong" value="0"/>
+<config key="attributeValues">
+<entry key="array-size" type="xint" value="7"/>
+<entry key="0" type="xstring" value="Monday"/>
+<entry key="1" type="xstring" value="Thursday"/>
+<entry key="2" type="xstring" value="Friday"/>
+<entry key="3" type="xstring" value="Sunday"/>
+<entry key="4" type="xstring" value="Wednesday"/>
+<entry key="5" type="xstring" value="Tuesday"/>
+<entry key="6" type="xstring" value="Saturday"/>
+</config>
+<config key="attributeCounter">
+<entry key="array-size" type="xint" value="7"/>
+<entry key="0" type="xlong" value="37"/>
+<entry key="1" type="xlong" value="41"/>
+<entry key="2" type="xlong" value="67"/>
+<entry key="3" type="xlong" value="26"/>
+<entry key="4" type="xlong" value="66"/>
+<entry key="5" type="xlong" value="47"/>
+<entry key="6" type="xlong" value="34"/>
+</config>
+</config>
+<config key="classValueData_3">
+<entry key="classValue" type="xstring" value="5"/>
+<entry key="noOfRows" type="xlong" value="1"/>
+<entry key="MissingValCounter" type="xlong" value="0"/>
+<config key="attributeValues">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="Sunday"/>
+</config>
+<config key="attributeCounter">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xlong" value="1"/>
+</config>
+</config>
+</config>
+</config>
+<config key="AttributeModelData_3">
+<entry key="attributeName" type="xstring" value="REGION"/>
+<entry key="type" type="xstring" value="NumericalModel"/>
+<entry key="skipMissingVals" type="xboolean" value="false"/>
+<entry key="numberOfMissingValues" type="xint" value="0"/>
+<entry key="invalidCause" type="xstring" isnull="true" value=""/>
+<config key="data">
+<entry key="noOfClasses" type="xlong" value="4"/>
+<config key="classValueData_0">
+<entry key="classValue" type="xstring" value="1"/>
+<entry key="MissingValCounter" type="xlong" value="0"/>
+<entry key="noOfRows" type="xlong" value="9975"/>
+<entry key="mean" type="xdouble" value="14.113182957393523"/>
+<entry key="sd" type="xdouble" value="9.150399946120524"/>
+</config>
+<config key="classValueData_1">
+<entry key="classValue" type="xstring" value="2"/>
+<entry key="MissingValCounter" type="xlong" value="0"/>
+<entry key="noOfRows" type="xlong" value="12385"/>
+<entry key="mean" type="xdouble" value="15.69454985870003"/>
+<entry key="sd" type="xdouble" value="7.669243974630003"/>
+</config>
+<config key="classValueData_2">
+<entry key="classValue" type="xstring" value="3"/>
+<entry key="MissingValCounter" type="xlong" value="0"/>
+<entry key="noOfRows" type="xlong" value="318"/>
+<entry key="mean" type="xdouble" value="17.51572327044023"/>
+<entry key="sd" type="xdouble" value="5.285961821413192"/>
+</config>
+<config key="classValueData_3">
+<entry key="classValue" type="xstring" value="5"/>
+<entry key="MissingValCounter" type="xlong" value="0"/>
+<entry key="noOfRows" type="xlong" value="1"/>
+<entry key="mean" type="xdouble" value="17.0"/>
+<entry key="sd" type="xdouble" value="1.0E-4"/>
+</config>
+</config>
+</config>
+<config key="AttributeModelData_4">
+<entry key="attributeName" type="xstring" value="DATE"/>
+<entry key="type" type="xstring" value="NumericalModel"/>
+<entry key="skipMissingVals" type="xboolean" value="false"/>
+<entry key="numberOfMissingValues" type="xint" value="0"/>
+<entry key="invalidCause" type="xstring" isnull="true" value=""/>
+<config key="data">
+<entry key="noOfClasses" type="xlong" value="4"/>
+<config key="classValueData_0">
+<entry key="classValue" type="xstring" value="1"/>
+<entry key="MissingValCounter" type="xlong" value="0"/>
+<entry key="noOfRows" type="xlong" value="9975"/>
+<entry key="mean" type="xdouble" value="15.8755889724312"/>
+<entry key="sd" type="xdouble" value="8.698988955878733"/>
+</config>
+<config key="classValueData_1">
+<entry key="classValue" type="xstring" value="2"/>
+<entry key="MissingValCounter" type="xlong" value="0"/>
+<entry key="noOfRows" type="xlong" value="12385"/>
+<entry key="mean" type="xdouble" value="15.639321760193798"/>
+<entry key="sd" type="xdouble" value="8.882759238246678"/>
+</config>
+<config key="classValueData_2">
+<entry key="classValue" type="xstring" value="3"/>
+<entry key="MissingValCounter" type="xlong" value="0"/>
+<entry key="noOfRows" type="xlong" value="318"/>
+<entry key="mean" type="xdouble" value="15.424528301886788"/>
+<entry key="sd" type="xdouble" value="8.781197413236846"/>
+</config>
+<config key="classValueData_3">
+<entry key="classValue" type="xstring" value="5"/>
+<entry key="MissingValCounter" type="xlong" value="0"/>
+<entry key="noOfRows" type="xlong" value="1"/>
+<entry key="mean" type="xdouble" value="20.0"/>
+<entry key="sd" type="xdouble" value="1.0E-4"/>
+</config>
+</config>
+</config>
+<config key="AttributeModelData_5">
+<entry key="attributeName" type="xstring" value="Count(UCR_PART)"/>
+<entry key="type" type="xstring" value="NumericalModel"/>
+<entry key="skipMissingVals" type="xboolean" value="false"/>
+<entry key="numberOfMissingValues" type="xint" value="0"/>
+<entry key="invalidCause" type="xstring" isnull="true" value=""/>
+<config key="data">
+<entry key="noOfClasses" type="xlong" value="4"/>
+<config key="classValueData_0">
+<entry key="classValue" type="xstring" value="1"/>
+<entry key="MissingValCounter" type="xlong" value="0"/>
+<entry key="noOfRows" type="xlong" value="9975"/>
+<entry key="mean" type="xdouble" value="4.8671679197994955"/>
+<entry key="sd" type="xdouble" value="1.7057152038663606"/>
+</config>
+<config key="classValueData_1">
+<entry key="classValue" type="xstring" value="2"/>
+<entry key="MissingValCounter" type="xlong" value="0"/>
+<entry key="noOfRows" type="xlong" value="12385"/>
+<entry key="mean" type="xdouble" value="11.511021396850992"/>
+<entry key="sd" type="xdouble" value="3.0217336346106975"/>
+</config>
+<config key="classValueData_2">
+<entry key="classValue" type="xstring" value="3"/>
+<entry key="MissingValCounter" type="xlong" value="0"/>
+<entry key="noOfRows" type="xlong" value="318"/>
+<entry key="mean" type="xdouble" value="23.34905660377358"/>
+<entry key="sd" type="xdouble" value="2.44449727562537"/>
+</config>
+<config key="classValueData_3">
+<entry key="classValue" type="xstring" value="5"/>
+<entry key="MissingValCounter" type="xlong" value="0"/>
+<entry key="noOfRows" type="xlong" value="1"/>
+<entry key="mean" type="xdouble" value="99.0"/>
+<entry key="sd" type="xdouble" value="1.0E-4"/>
+</config>
+</config>
+</config>
+<config key="AttributeModelData_6">
+<entry key="attributeName" type="xstring" value="Temperature"/>
+<entry key="type" type="xstring" value="NumericalModel"/>
+<entry key="skipMissingVals" type="xboolean" value="false"/>
+<entry key="numberOfMissingValues" type="xint" value="0"/>
+<entry key="invalidCause" type="xstring" isnull="true" value=""/>
+<config key="data">
+<entry key="noOfClasses" type="xlong" value="4"/>
+<config key="classValueData_0">
+<entry key="classValue" type="xstring" value="1"/>
+<entry key="MissingValCounter" type="xlong" value="0"/>
+<entry key="noOfRows" type="xlong" value="9975"/>
+<entry key="mean" type="xdouble" value="51.866183458646525"/>
+<entry key="sd" type="xdouble" value="17.16617458930515"/>
+</config>
+<config key="classValueData_1">
+<entry key="classValue" type="xstring" value="2"/>
+<entry key="MissingValCounter" type="xlong" value="0"/>
+<entry key="noOfRows" type="xlong" value="12385"/>
+<entry key="mean" type="xdouble" value="54.64857650383527"/>
+<entry key="sd" type="xdouble" value="16.620938971380507"/>
+</config>
+<config key="classValueData_2">
+<entry key="classValue" type="xstring" value="3"/>
+<entry key="MissingValCounter" type="xlong" value="0"/>
+<entry key="noOfRows" type="xlong" value="318"/>
+<entry key="mean" type="xdouble" value="57.491761006289295"/>
+<entry key="sd" type="xdouble" value="15.002532006470187"/>
+</config>
+<config key="classValueData_3">
+<entry key="classValue" type="xstring" value="5"/>
+<entry key="MissingValCounter" type="xlong" value="0"/>
+<entry key="noOfRows" type="xlong" value="1"/>
+<entry key="mean" type="xdouble" value="31.78"/>
+<entry key="sd" type="xdouble" value="1.0E-4"/>
+</config>
+</config>
+</config>
+<config key="AttributeModelData_7">
+<entry key="attributeName" type="xstring" value="Count_CATEGORIES"/>
+<entry key="type" type="xstring" value="ClassModel"/>
+<entry key="skipMissingVals" type="xboolean" value="false"/>
+<entry key="numberOfMissingValues" type="xint" value="0"/>
+<entry key="invalidCause" type="xstring" isnull="true" value=""/>
+<config key="data">
+<entry key="totalNoOfRecords" type="xlong" value="22679"/>
+<entry key="maxNoOfClassValues" type="xlong" value="20"/>
+<config key="classValues">
+<entry key="array-size" type="xint" value="4"/>
+<entry key="0" type="xstring" value="1"/>
+<entry key="1" type="xstring" value="2"/>
+<entry key="2" type="xstring" value="3"/>
+<entry key="3" type="xstring" value="5"/>
+</config>
+<config key="classRecordCounter">
+<entry key="array-size" type="xint" value="4"/>
+<entry key="0" type="xlong" value="9975"/>
+<entry key="1" type="xlong" value="12385"/>
+<entry key="2" type="xlong" value="318"/>
+<entry key="3" type="xlong" value="1"/>
+</config>
+</config>
+</config>
+</config>
+</config>
