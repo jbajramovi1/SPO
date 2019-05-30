@@ -12,13 +12,13 @@
 <entry key="1" type="xstring" value="// $double column name$ &gt; 5.0 =&gt; &quot;large&quot;"/>
 <entry key="2" type="xstring" value="// $string column name$ LIKE &quot;*blue*&quot; =&gt; &quot;small and blue&quot;"/>
 <entry key="3" type="xstring" value="// TRUE =&gt; &quot;default outcome&quot;"/>
-<entry key="4" type="xstring" value="$Count(UCR_PART)$ &lt;= 5 =&gt; &quot;LOW&quot;"/>
-<entry key="5" type="xstring" value="$Count(UCR_PART)$ &lt;= 13 =&gt; &quot;MEDIUM&quot;"/>
-<entry key="6" type="xstring" value="$Count(UCR_PART)$ &gt; 13 =&gt; &quot;HIGH&quot;"/>
+<entry key="4" type="xstring" value="$Temperature$ &lt;= 40 =&gt; &quot;LOW&quot;"/>
+<entry key="5" type="xstring" value="$Temperature$ &lt;= 60 =&gt; &quot;MEDIUM&quot;"/>
+<entry key="6" type="xstring" value="$Temperature$ &gt; 60 =&gt; &quot;HIGH&quot;"/>
 </config>
-<entry key="new-column-name" type="xstring" value="Count_CATEGORIES"/>
-<entry key="replace-column-name" type="xstring" value="Count(UCR_PART)"/>
-<entry key="append-column" type="xboolean" value="true"/>
+<entry key="new-column-name" type="xstring" value="prediction"/>
+<entry key="replace-column-name" type="xstring" value="Temperature"/>
+<entry key="append-column" type="xboolean" value="false"/>
 <entry key="disallowLongOutputForCompatibility" type="xboolean" value="false"/>
 </config>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
@@ -48,6 +48,6 @@
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="ac910a39-af08-458a-9cd3-35f22c7aa349"/>
+<entry key="file_store_id" type="xstring" value="008f2c05-750d-42ca-a7b9-a82f4f274e9e"/>
 </config>
 </config>

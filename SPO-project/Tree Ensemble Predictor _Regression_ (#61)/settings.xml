@@ -6,9 +6,9 @@
 <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
 </config>
 <config key="model">
-<entry key="predictionColumnName" type="xstring" value="Prediction (Count_CATEGORIES)"/>
+<entry key="predictionColumnName" type="xstring" value="Prediction (Count(UCR_PART))"/>
 <entry key="changePredictionColumnName" type="xboolean" value="false"/>
-<entry key="appendPredictionConfidence" type="xboolean" value="false"/>
+<entry key="appendPredictionConfidence" type="xboolean" value="true"/>
 <entry key="appendClassConfidences" type="xboolean" value="false"/>
 <entry key="appendModelCount" type="xboolean" value="false"/>
 <entry key="suffixForClassProbabilities" type="xstring" value=""/>
@@ -16,8 +16,8 @@
 </config>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
 <entry key="state" type="xstring" value="CONFIGURED"/>
-<entry key="factory" type="xstring" value="org.knime.base.node.mine.treeensemble2.node.gradientboosting.predictor.classification.GradientBoostingClassificationPredictorNodeFactory2"/>
-<entry key="node-name" type="xstring" value="Gradient Boosted Trees Predictor"/>
+<entry key="factory" type="xstring" value="org.knime.base.node.mine.treeensemble2.node.predictor.regression.TreeEnsembleRegressionPredictorNodeFactory"/>
+<entry key="node-name" type="xstring" value="Tree Ensemble Predictor (Regression)"/>
 <entry key="node-bundle-name" type="xstring" value="Decisions Tree Ensembles for KNIME"/>
 <entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.base.treeensembles2"/>
 <entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
@@ -27,7 +27,7 @@
 <entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
 <entry key="node-feature-version" type="xstring" value="3.7.2.v201904171038"/>
 <config key="factory_settings"/>
-<entry key="name" type="xstring" value="Gradient Boosted Trees Predictor"/>
+<entry key="name" type="xstring" value="Tree Ensemble Predictor (Regression)"/>
 <entry key="hasContent" type="xboolean" value="false"/>
 <entry key="isInactive" type="xboolean" value="false"/>
 <config key="ports">

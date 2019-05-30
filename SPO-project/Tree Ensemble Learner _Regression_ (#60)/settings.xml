@@ -6,9 +6,9 @@
 <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
 </config>
 <config key="model">
-<entry key="targetColumn" type="xstring" value="Count_CATEGORIES"/>
-<entry key="seed" type="xstring" value="1558535362357"/>
-<entry key="maxLevels" type="xint" value="10"/>
+<entry key="targetColumn" type="xstring" value="Count(UCR_PART)"/>
+<entry key="seed" type="xstring" value="1559152244553"/>
+<entry key="maxLevels" type="xint" value="-1"/>
 <entry key="minNodeSize" type="xint" value="-1"/>
 <entry key="minChildSize" type="xint" value="-1"/>
 <entry key="dataFraction" type="xdouble" value="1.0"/>
@@ -19,7 +19,7 @@
 <entry key="columnAbsolutePerTree" type="xint" value="10"/>
 <entry key="isUseDifferentAttributesAtEachNode" type="xboolean" value="false"/>
 <entry key="nrModels" type="xint" value="100"/>
-<entry key="splitCriterion" type="xstring" value="Gini"/>
+<entry key="splitCriterion" type="xstring" value="InformationGainRatio"/>
 <entry key="missingValueHandling" type="xstring" value="XGBoost"/>
 <entry key="useAverageSplitPoints" type="xboolean" value="true"/>
 <entry key="useBinaryNominalSplits" type="xboolean" value="true"/>
@@ -37,13 +37,13 @@
 </config>
 <config key="excluded_names">
 <entry key="array-size" type="xint" value="1"/>
-<entry key="0" type="xstring" value="Count(UCR_PART)"/>
+<entry key="0" type="xstring" value="Count_CATEGORIES"/>
 </config>
-<entry key="enforce_option" type="xstring" value="EnforceExclusion"/>
+<entry key="enforce_option" type="xstring" value="EnforceInclusion"/>
 <config key="name_pattern">
 <entry key="pattern" type="xstring" value=""/>
-<entry key="type" type="xstring" value="Wildcard"/>
-<entry key="caseSensitive" type="xboolean" value="true"/>
+<entry key="type" type="xstring" value="Regex"/>
+<entry key="caseSensitive" type="xboolean" value="false"/>
 </config>
 <config key="datatype">
 <config key="typelist">
@@ -57,16 +57,18 @@
 </config>
 </config>
 <entry key="ignoreColumnsWithoutDomain" type="xboolean" value="true"/>
-<entry key="nrHilitePatterns" type="xint" value="0"/>
+<entry key="nrHilitePatterns" type="xint" value="-1"/>
 <entry key="saveTargetDistributionInNodes" type="xboolean" value="false"/>
 <entry key="rowSamplingMode" type="xstring" value="Random"/>
-<entry key="learningRate" type="xdouble" value="0.1"/>
-<entry key="alphaFraction" type="xdouble" value="0.95"/>
 </config>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
 <entry key="state" type="xstring" value="CONFIGURED"/>
-<entry key="factory" type="xstring" value="org.knime.base.node.mine.treeensemble2.node.gradientboosting.learner.classification.GradientBoostingClassificationLearnerNodeFactory"/>
-<entry key="node-name" type="xstring" value="Gradient Boosted Trees Learner"/>
+<config key="nodecontainer_message">
+<entry key="type" type="xstring" value="WARNING"/>
+<entry key="message" type="xstring" value="Execution canceled"/>
+</config>
+<entry key="factory" type="xstring" value="org.knime.base.node.mine.treeensemble2.node.learner.regression.TreeEnsembleRegressionLearnerNodeFactory"/>
+<entry key="node-name" type="xstring" value="Tree Ensemble Learner (Regression)"/>
 <entry key="node-bundle-name" type="xstring" value="Decisions Tree Ensembles for KNIME"/>
 <entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.base.treeensembles2"/>
 <entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
@@ -76,12 +78,20 @@
 <entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
 <entry key="node-feature-version" type="xstring" value="3.7.2.v201904171038"/>
 <config key="factory_settings"/>
-<entry key="name" type="xstring" value="Gradient Boosted Trees Learner"/>
+<entry key="name" type="xstring" value="Tree Ensemble Learner (Regression)"/>
 <entry key="hasContent" type="xboolean" value="false"/>
 <entry key="isInactive" type="xboolean" value="false"/>
 <config key="ports">
 <config key="port_1">
 <entry key="index" type="xint" value="1"/>
+<entry key="port_dir_location" type="xstring" isnull="true" value=""/>
+</config>
+<config key="port_2">
+<entry key="index" type="xint" value="2"/>
+<entry key="port_dir_location" type="xstring" isnull="true" value=""/>
+</config>
+<config key="port_3">
+<entry key="index" type="xint" value="3"/>
 <entry key="port_dir_location" type="xstring" isnull="true" value=""/>
 </config>
 </config>

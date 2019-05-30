@@ -12,17 +12,17 @@
 <entry key="1" type="xstring" value="// $double column name$ &gt; 5.0 =&gt; &quot;large&quot;"/>
 <entry key="2" type="xstring" value="// $string column name$ LIKE &quot;*blue*&quot; =&gt; &quot;small and blue&quot;"/>
 <entry key="3" type="xstring" value="// TRUE =&gt; &quot;default outcome&quot;"/>
-<entry key="4" type="xstring" value="$Count(UCR_PART)$ &lt;= 5 =&gt; &quot;LOW&quot;"/>
-<entry key="5" type="xstring" value="$Count(UCR_PART)$ &lt;= 13 =&gt; &quot;MEDIUM&quot;"/>
-<entry key="6" type="xstring" value="$Count(UCR_PART)$ &gt; 13 =&gt; &quot;HIGH&quot;"/>
+<entry key="4" type="xstring" value="$Prediction (Count(UCR_PART))$ LIKE &quot;HIGH&quot; OR $Prediction (Count_CATEGORIES)$ LIKE &quot;HIGH&quot; =&gt; &quot;HIGH&quot;"/>
+<entry key="5" type="xstring" value="$Prediction (Count_CATEGORIES)$ LIKE &quot;LOW&quot; =&gt; &quot;LOW&quot;"/>
+<entry key="6" type="xstring" value="TRUE =&gt; $Prediction (Count_CATEGORIES) (#1)$"/>
 </config>
-<entry key="new-column-name" type="xstring" value="Count_CATEGORIES"/>
-<entry key="replace-column-name" type="xstring" value="Count(UCR_PART)"/>
+<entry key="new-column-name" type="xstring" value="prediction"/>
+<entry key="replace-column-name" type="xstring" value="Prediction (Count_CATEGORIES) (#1)"/>
 <entry key="append-column" type="xboolean" value="true"/>
 <entry key="disallowLongOutputForCompatibility" type="xboolean" value="false"/>
 </config>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
-<entry key="state" type="xstring" value="EXECUTED"/>
+<entry key="state" type="xstring" value="CONFIGURED"/>
 <entry key="factory" type="xstring" value="org.knime.base.node.rules.engine.RuleEngineNodeFactory"/>
 <entry key="node-name" type="xstring" value="Rule Engine"/>
 <entry key="node-bundle-name" type="xstring" value="KNIME Java Snippet Nodes"/>
@@ -35,19 +35,16 @@
 <entry key="node-feature-version" type="xstring" value="3.7.2.v201904171038"/>
 <config key="factory_settings"/>
 <entry key="name" type="xstring" value="Rule Engine"/>
-<entry key="hasContent" type="xboolean" value="true"/>
+<entry key="hasContent" type="xboolean" value="false"/>
 <entry key="isInactive" type="xboolean" value="false"/>
 <config key="ports">
 <config key="port_1">
 <entry key="index" type="xint" value="1"/>
-<entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
-<entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-<entry key="port_object_summary" type="xstring" value="Rows: 32399, Cols: 8"/>
-<entry key="port_dir_location" type="xstring" value="port_1"/>
+<entry key="port_dir_location" type="xstring" isnull="true" value=""/>
 </config>
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="ac910a39-af08-458a-9cd3-35f22c7aa349"/>
+<entry key="file_store_id" type="xstring" isnull="true" value=""/>
 </config>
 </config>

@@ -6,16 +6,6 @@
 <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
 </config>
 <config key="model">
-<config key="typeofround_Internals">
-<entry key="SettingsModelID" type="xstring" value="SMID_string"/>
-<entry key="EnabledStatus" type="xboolean" value="true"/>
-</config>
-<entry key="typeofround" type="xstring" value="round"/>
-<config key="long_Internals">
-<entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
-<entry key="EnabledStatus" type="xboolean" value="true"/>
-</config>
-<entry key="long" type="xboolean" value="false"/>
 <config key="include_Internals">
 <entry key="SettingsModelID" type="xstring" value="SMID_columnfilter"/>
 <entry key="EnabledStatus" type="xboolean" value="true"/>
@@ -27,8 +17,9 @@
 <entry key="0" type="xstring" value="Prediction (Count(UCR_PART))"/>
 </config>
 <config key="excluded_names">
-<entry key="array-size" type="xint" value="1"/>
-<entry key="0" type="xstring" value="Temperature"/>
+<entry key="array-size" type="xint" value="2"/>
+<entry key="0" type="xstring" value="Prediction (Count(UCR_PART)) (Prediction Variance)"/>
+<entry key="1" type="xstring" value="Temperature"/>
 </config>
 <entry key="enforce_option" type="xstring" value="EnforceExclusion"/>
 <config key="name_pattern">
@@ -47,6 +38,16 @@
 </config>
 </config>
 </config>
+<config key="typeofround_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="typeofround" type="xstring" value="round"/>
+<config key="long_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="long" type="xboolean" value="false"/>
 </config>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
 <entry key="state" type="xstring" value="CONFIGURED"/>
