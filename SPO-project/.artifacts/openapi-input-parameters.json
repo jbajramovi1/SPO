@@ -1,0 +1,51 @@
+
+{
+    "type":"object",
+    "properties":{
+        "single-selection-72:68":{
+            "type":"object",
+            "properties":{
+                "variable_value":{
+                    "type":"string",
+                    "default":"1"
+                }
+            },
+            "description":"Enter Description",
+            "example":{
+                "variable_value":"1"
+            }
+        },
+        "single-selection-72:67":{
+            "type":"object",
+            "properties":{
+                "variable_value":{
+                    "type":"string",
+                    "default":"1"
+                }
+            },
+            "description":"Enter Description",
+            "example":{
+                "variable_value":"1"
+            }
+        },
+        "int-input-72:70":{
+            "type":"integer",
+            "default":0,
+            "description":"Enter Description",
+            "example":0
+        },
+        "single-selection-72:69":{
+            "type":"object",
+            "properties":{
+                "variable_value":{
+                    "type":"string",
+                    "default":"Monday"
+                }
+            },
+            "description":"Enter Description",
+            "example":{
+                "variable_value":"Monday"
+            }
+        }
+    }
+}

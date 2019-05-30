@@ -1,0 +1,45 @@
+
+{
+    "version":"3.7.2.v201904170949",
+    "created":"2019-05-30 16:36",
+    "nodestats":{
+        "nodes":[
+            {
+                "id":"org.knime.js.base.node.quickform.selection.single.SingleSelectionQuickFormNodeFactory#Single Selection",
+                "nrexecs":0,
+                "nrfails":0,
+                "exectime":0,
+                "nrcreated":3,
+                "successor":"org.knime.base.node.util.mergevariables.MergeVariablesNodeFactory#Merge Variables"
+            },
+            {
+                "id":"org.knime.js.base.node.quickform.input.integer.IntInputQuickFormNodeFactory#Integer Input",
+                "nrexecs":0,
+                "nrfails":0,
+                "exectime":0,
+                "nrcreated":1,
+                "successor":"org.knime.base.node.util.mergevariables.MergeVariablesNodeFactory#Merge Variables"
+            },
+            {
+                "id":"org.knime.base.node.util.mergevariables.MergeVariablesNodeFactory#Merge Variables",
+                "nrexecs":0,
+                "nrfails":0,
+                "exectime":0,
+                "nrcreated":1,
+                "successor":"n/a"
+            }
+        ],
+        "metaNodes":{
+        },
+        "wrappedNodes":{
+        }
+    },
+    "uptime":647540,
+    "workflowsOpened":1,
+    "remoteWorkflowsOpened":0,
+    "launches":1,
+    "lastApplicationID":"org.knime.product.KNIME_APPLICATION",
+    "timeSinceLastStart":647540,
+    "crashes":0,
+    "properlyShutDown":true
+}
