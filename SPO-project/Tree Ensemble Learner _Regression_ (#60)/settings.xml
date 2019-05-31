@@ -63,10 +63,6 @@
 </config>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
 <entry key="state" type="xstring" value="CONFIGURED"/>
-<config key="nodecontainer_message">
-<entry key="type" type="xstring" value="WARNING"/>
-<entry key="message" type="xstring" value="Execution canceled"/>
-</config>
 <entry key="factory" type="xstring" value="org.knime.base.node.mine.treeensemble2.node.learner.regression.TreeEnsembleRegressionLearnerNodeFactory"/>
 <entry key="node-name" type="xstring" value="Tree Ensemble Learner (Regression)"/>
 <entry key="node-bundle-name" type="xstring" value="Decisions Tree Ensembles for KNIME"/>
