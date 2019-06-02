@@ -2,50 +2,56 @@
 {
     "type":"object",
     "properties":{
-        "single-selection-72:68":{
+        "single-selection-78:69":{
             "type":"object",
             "properties":{
                 "variable_value":{
                     "type":"string",
-                    "default":"1"
+                    "default":"Wednesday "
                 }
             },
             "description":"Enter Description",
             "example":{
-                "variable_value":"1"
+                "variable_value":"Wednesday "
             }
         },
-        "single-selection-72:67":{
-            "type":"object",
-            "properties":{
-                "variable_value":{
-                    "type":"string",
-                    "default":"1"
-                }
-            },
-            "description":"Enter Description",
-            "example":{
-                "variable_value":"1"
-            }
-        },
-        "int-input-72:70":{
+        "int-input-78:70":{
             "type":"integer",
-            "default":0,
+            "default":2015,
             "description":"Enter Description",
-            "example":0
+            "example":2015
         },
-        "single-selection-72:69":{
+        "single-selection-78:67":{
             "type":"object",
             "properties":{
                 "variable_value":{
                     "type":"string",
-                    "default":"Monday"
+                    "default":"3"
                 }
             },
             "description":"Enter Description",
             "example":{
-                "variable_value":"Monday"
+                "variable_value":"3"
             }
+        },
+        "single-selection-78:68":{
+            "type":"object",
+            "properties":{
+                "variable_value":{
+                    "type":"string",
+                    "default":"4"
+                }
+            },
+            "description":"Enter Description",
+            "example":{
+                "variable_value":"4"
+            }
+        },
+        "int-input-78:73":{
+            "type":"integer",
+            "default":88,
+            "description":"Enter Description",
+            "example":88
         }
     }
 }
