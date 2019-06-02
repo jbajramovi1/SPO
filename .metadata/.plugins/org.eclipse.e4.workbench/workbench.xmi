@@ -63,7 +63,7 @@
                   <children xsi:type="advanced:Placeholder" xmi:id="_VVgUHoLoEembg9bZinmCxA" elementId="org.knime.workbench.helpview" ref="_VVee4YLoEembg9bZinmCxA"/>
                 </children>
               </children>
-              <children xsi:type="basic:PartSashContainer" xmi:id="_VVgUH4LoEembg9bZinmCxA" containerData="2087" selectedElement="_VVgUIILoEembg9bZinmCxA" horizontal="true">
+              <children xsi:type="basic:PartSashContainer" xmi:id="_VVgUH4LoEembg9bZinmCxA" containerData="2087" selectedElement="_VVgUIoLoEembg9bZinmCxA" horizontal="true">
                 <children xsi:type="basic:PartStack" xmi:id="_VVgUIILoEembg9bZinmCxA" elementId="org.eclipse.ui.views.ContentOutlineMStack" containerData="3000" selectedElement="_VVgUIYLoEembg9bZinmCxA">
                   <children xsi:type="advanced:Placeholder" xmi:id="_VVgUIYLoEembg9bZinmCxA" elementId="org.eclipse.ui.views.ContentOutline" ref="_VVee4ILoEembg9bZinmCxA"/>
                 </children>
@@ -1184,7 +1184,7 @@
   <addons xmi:id="_Ugc7bYLoEembg9bZinmCxA" elementId="MinMax Addon" contributorURI="platform:/plugin/org.eclipse.ui.workbench" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.minmax.MinMaxAddon"/>
   <addons xmi:id="_Ugc7boLoEembg9bZinmCxA" elementId="org.eclipse.ui.workbench.addon.0" contributorURI="platform:/plugin/org.eclipse.ui.workbench" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.HandlerProcessingAddon"/>
   <addons xmi:id="_UgleQILoEembg9bZinmCxA" elementId="SplitterAddon" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.splitteraddon.SplitterAddon"/>
-  <addons xmi:id="_3pI_YYU4EemNRs7n5DQZnw" elementId="org.eclipse.ui.ide.addon.0" contributionURI="bundleclass://org.eclipse.ui.ide/org.eclipse.ui.internal.ide.addons.SaveAllDirtyPartsAddon"/>
+  <addons xmi:id="_rQHBoIVCEemVxvFs3vs0lw" elementId="org.eclipse.ui.ide.addon.0" contributionURI="bundleclass://org.eclipse.ui.ide/org.eclipse.ui.internal.ide.addons.SaveAllDirtyPartsAddon"/>
   <addons xmi:id="_dz0JgGOlEeSMMaPQU2nlzw" elementId="org.eclipse.ui.ide.application.addon.0" contributorURI="platform:/plugin/org.eclipse.ui.ide.application" contributionURI="bundleclass://org.eclipse.ui.ide.application/org.eclipse.ui.internal.ide.application.addons.ModelCleanupAddon"/>
   <categories xmi:id="_UhFNgILoEembg9bZinmCxA" elementId="org.eclipse.team.ui.category.team" name="Team" description="Actions that apply when working with a Team"/>
   <categories xmi:id="_UhF0kILoEembg9bZinmCxA" elementId="org.eclipse.ui.category.views" name="Views" description="Commands for opening views"/>

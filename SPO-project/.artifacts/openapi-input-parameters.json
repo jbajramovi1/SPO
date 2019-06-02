@@ -15,6 +15,19 @@
                 "variable_value":"Wednesday "
             }
         },
+        "Day_Of_The_Month-78:68":{
+            "type":"object",
+            "properties":{
+                "variable_value":{
+                    "type":"string",
+                    "default":"4"
+                }
+            },
+            "description":"Day_Of_The_Month",
+            "example":{
+                "variable_value":"4"
+            }
+        },
         "int-input-78:70":{
             "type":"integer",
             "default":2015,
@@ -32,19 +45,6 @@
             "description":"Enter Description",
             "example":{
                 "variable_value":"3"
-            }
-        },
-        "single-selection-78:68":{
-            "type":"object",
-            "properties":{
-                "variable_value":{
-                    "type":"string",
-                    "default":"4"
-                }
-            },
-            "description":"Enter Description",
-            "example":{
-                "variable_value":"4"
             }
         },
         "int-input-78:73":{

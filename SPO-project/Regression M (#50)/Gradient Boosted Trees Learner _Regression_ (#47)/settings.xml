@@ -63,11 +63,7 @@
 <entry key="alphaFraction" type="xdouble" value="0.95"/>
 </config>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
-<entry key="state" type="xstring" value="CONFIGURED"/>
-<config key="nodecontainer_message">
-<entry key="type" type="xstring" value="ERROR"/>
-<entry key="message" type="xstring" value="Execute failed: java.lang.OutOfMemoryError: GC overhead limit exceeded"/>
-</config>
+<entry key="state" type="xstring" value="EXECUTED"/>
 <entry key="factory" type="xstring" value="org.knime.base.node.mine.treeensemble2.node.gradientboosting.learner.regression.GradientBoostingRegressionLearnerNodeFactory"/>
 <entry key="node-name" type="xstring" value="Gradient Boosted Trees Learner (Regression)"/>
 <entry key="node-bundle-name" type="xstring" value="Decisions Tree Ensembles for KNIME"/>
@@ -80,16 +76,21 @@
 <entry key="node-feature-version" type="xstring" value="3.7.2.v201904171038"/>
 <config key="factory_settings"/>
 <entry key="name" type="xstring" value="Gradient Boosted Trees Learner (Regression)"/>
-<entry key="hasContent" type="xboolean" value="false"/>
+<entry key="hasContent" type="xboolean" value="true"/>
 <entry key="isInactive" type="xboolean" value="false"/>
 <config key="ports">
 <config key="port_1">
 <entry key="index" type="xint" value="1"/>
-<entry key="port_dir_location" type="xstring" isnull="true" value=""/>
+<entry key="port_spec_class" type="xstring" value="org.knime.base.node.mine.treeensemble2.model.TreeEnsembleModelPortObjectSpec"/>
+<entry key="port_object_class" type="xstring" value="org.knime.base.node.mine.treeensemble2.model.GradientBoostingModelPortObject"/>
+<entry key="port_object_summary" type="xstring" value="Gradient Boosting Model"/>
+<entry key="port_spec_location" type="xstring" value="spec/spec.zip"/>
+<entry key="port_object_location" type="xstring" value="object/portobject.zip"/>
+<entry key="port_dir_location" type="xstring" value="port_1"/>
 </config>
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" isnull="true" value=""/>
+<entry key="file_store_id" type="xstring" value="88e111ba-3963-4da4-a061-7309f97285cd"/>
 </config>
 </config>
