@@ -6,38 +6,19 @@
 <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
 </config>
 <config key="model">
-<entry key="targetColumn" type="xstring" value="Count_CATEGORIES"/>
-<entry key="seed" type="xstring" value="1559203814747"/>
-<entry key="maxLevels" type="xint" value="10"/>
-<entry key="minNodeSize" type="xint" value="-1"/>
-<entry key="minChildSize" type="xint" value="-1"/>
-<entry key="dataFraction" type="xdouble" value="1.0"/>
-<entry key="isDataSelectionWithReplacement" type="xboolean" value="true"/>
-<entry key="hardCodedRootColumn" type="xstring" isnull="true" value=""/>
-<entry key="columnSamplingMode" type="xstring" value="SquareRoot"/>
-<entry key="columnFractionPerTree" type="xdouble" value="1.0"/>
-<entry key="columnAbsolutePerTree" type="xint" value="10"/>
-<entry key="isUseDifferentAttributesAtEachNode" type="xboolean" value="true"/>
-<entry key="nrModels" type="xint" value="100"/>
-<entry key="splitCriterion" type="xstring" value="InformationGainRatio"/>
-<entry key="missingValueHandling" type="xstring" value="XGBoost"/>
-<entry key="useAverageSplitPoints" type="xboolean" value="true"/>
-<entry key="useBinaryNominalSplits" type="xboolean" value="true"/>
-<entry key="fingerprintColumn" type="xstring" isnull="true" value=""/>
-<config key="columnFilterConfig">
+<config key="include_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_columnfilter"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<config key="include">
 <entry key="filter-type" type="xstring" value="STANDARD"/>
 <config key="included_names">
-<entry key="array-size" type="xint" value="6"/>
-<entry key="0" type="xstring" value="YEAR"/>
-<entry key="1" type="xstring" value="MONTH"/>
-<entry key="2" type="xstring" value="REGION"/>
-<entry key="3" type="xstring" value="DATE"/>
-<entry key="4" type="xstring" value="HOLIDAY"/>
-<entry key="5" type="xstring" value="Temperature"/>
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="Prediction (Count(UCR_PART))"/>
 </config>
 <config key="excluded_names">
 <entry key="array-size" type="xint" value="1"/>
-<entry key="0" type="xstring" value="Count(UCR_PART)"/>
+<entry key="0" type="xstring" value="Temperature"/>
 </config>
 <entry key="enforce_option" type="xstring" value="EnforceExclusion"/>
 <config key="name_pattern">
@@ -47,26 +28,32 @@
 </config>
 <config key="datatype">
 <config key="typelist">
-<entry key="org.knime.core.data.StringValue" type="xboolean" value="false"/>
-<entry key="org.knime.core.data.IntValue" type="xboolean" value="false"/>
-<entry key="org.knime.core.data.BooleanValue" type="xboolean" value="false"/>
 <entry key="org.knime.core.data.DoubleValue" type="xboolean" value="false"/>
+<entry key="org.knime.core.data.BooleanValue" type="xboolean" value="false"/>
+<entry key="org.knime.core.data.IntValue" type="xboolean" value="false"/>
 <entry key="org.knime.core.data.LongValue" type="xboolean" value="false"/>
+<entry key="org.knime.core.data.StringValue" type="xboolean" value="false"/>
 <entry key="org.knime.core.data.date.DateAndTimeValue" type="xboolean" value="false"/>
 </config>
 </config>
 </config>
-<entry key="ignoreColumnsWithoutDomain" type="xboolean" value="true"/>
-<entry key="nrHilitePatterns" type="xint" value="-1"/>
-<entry key="saveTargetDistributionInNodes" type="xboolean" value="false"/>
-<entry key="rowSamplingMode" type="xstring" value="Random"/>
+<config key="typeofround_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="typeofround" type="xstring" value="round"/>
+<config key="long_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="long" type="xboolean" value="false"/>
 </config>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
-<entry key="state" type="xstring" value="CONFIGURED"/>
-<entry key="factory" type="xstring" value="org.knime.base.node.mine.treeensemble2.node.randomforest.learner.classification.RandomForestClassificationLearnerNodeFactory2"/>
-<entry key="node-name" type="xstring" value="Random Forest Learner"/>
-<entry key="node-bundle-name" type="xstring" value="Decisions Tree Ensembles for KNIME"/>
-<entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.base.treeensembles2"/>
+<entry key="state" type="xstring" value="EXECUTED"/>
+<entry key="factory" type="xstring" value="org.knime.base.node.preproc.double2int2.DoubleToIntNodeFactory"/>
+<entry key="node-name" type="xstring" value="Double To Int"/>
+<entry key="node-bundle-name" type="xstring" value="KNIME Base Nodes"/>
+<entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.base"/>
 <entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
 <entry key="node-bundle-version" type="xstring" value="3.7.2.v201904170949"/>
 <entry key="node-feature-name" type="xstring" value="KNIME Core"/>
@@ -74,25 +61,20 @@
 <entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
 <entry key="node-feature-version" type="xstring" value="3.7.2.v201904171038"/>
 <config key="factory_settings"/>
-<entry key="name" type="xstring" value="Random Forest Learner"/>
-<entry key="hasContent" type="xboolean" value="false"/>
+<entry key="name" type="xstring" value="Double To Int"/>
+<entry key="hasContent" type="xboolean" value="true"/>
 <entry key="isInactive" type="xboolean" value="false"/>
 <config key="ports">
 <config key="port_1">
 <entry key="index" type="xint" value="1"/>
-<entry key="port_dir_location" type="xstring" isnull="true" value=""/>
-</config>
-<config key="port_2">
-<entry key="index" type="xint" value="2"/>
-<entry key="port_dir_location" type="xstring" isnull="true" value=""/>
-</config>
-<config key="port_3">
-<entry key="index" type="xint" value="3"/>
-<entry key="port_dir_location" type="xstring" isnull="true" value=""/>
+<entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
+<entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+<entry key="port_object_summary" type="xstring" value="Rows: 9720, Cols: 8"/>
+<entry key="port_dir_location" type="xstring" value="port_1"/>
 </config>
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" isnull="true" value=""/>
+<entry key="file_store_id" type="xstring" value="b4a06120-4c02-49a0-9caf-9e82579fba5e"/>
 </config>
 </config>

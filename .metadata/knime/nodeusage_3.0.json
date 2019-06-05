@@ -1,0 +1,233 @@
+
+{
+    "version":"3.7.2.v201904170949",
+    "created":"2019-05-30 16:36",
+    "nodestats":{
+        "nodes":[
+            {
+                "id":"org.knime.js.base.node.quickform.selection.single.SingleSelectionQuickFormNodeFactory#Single Selection",
+                "nrexecs":13,
+                "nrfails":0,
+                "exectime":38,
+                "nrcreated":3,
+                "successor":"org.knime.base.node.util.mergevariables.MergeVariablesNodeFactory#Merge Variables"
+            },
+            {
+                "id":"org.knime.js.base.node.quickform.input.integer.IntInputQuickFormNodeFactory#Integer Input",
+                "nrexecs":7,
+                "nrfails":0,
+                "exectime":31,
+                "nrcreated":2,
+                "successor":"org.knime.base.node.flowvariable.variabletotablerow2.VariableToTable2NodeFactory#Variable to Table Row"
+            },
+            {
+                "id":"org.knime.base.node.util.mergevariables.MergeVariablesNodeFactory#Merge Variables",
+                "nrexecs":1,
+                "nrfails":0,
+                "exectime":16,
+                "nrcreated":1,
+                "successor":"org.knime.base.node.flowvariable.variabletotablerow2.VariableToTable2NodeFactory#Variable to Table Row"
+            },
+            {
+                "id":"org.knime.base.node.flowvariable.variabletotablerow2.VariableToTable2NodeFactory#Variable to Table Row",
+                "nrexecs":12,
+                "nrfails":0,
+                "exectime":295,
+                "nrcreated":6,
+                "successor":"org.knime.base.node.preproc.joiner.Joiner2NodeFactory#Joiner"
+            },
+            {
+                "id":"org.knime.base.node.io.table.write.WriteTableNodeFactory#Table Writer",
+                "nrexecs":0,
+                "nrfails":0,
+                "exectime":0,
+                "nrcreated":5,
+                "successor":"n/a"
+            },
+            {
+                "id":"org.knime.base.node.preproc.joiner.Joiner2NodeFactory#Joiner",
+                "nrexecs":10,
+                "nrfails":0,
+                "exectime":194,
+                "nrcreated":2,
+                "successor":"org.knime.core.node.workflow.virtual.subnode.VirtualSubNodeOutputNodeFactory#WrappedNode Output"
+            },
+            {
+                "id":"org.knime.base.node.io.table.read.ReadTableNodeFactory#Table Reader",
+                "nrexecs":0,
+                "nrfails":0,
+                "exectime":0,
+                "nrcreated":3,
+                "successor":"n/a"
+            },
+            {
+                "id":"org.knime.base.node.io.tablecreator.TableCreator2NodeFactory#Table Creator",
+                "nrexecs":4,
+                "nrfails":0,
+                "exectime":129,
+                "nrcreated":5,
+                "successor":"n/a"
+            },
+            {
+                "id":"org.knime.core.node.workflow.virtual.subnode.VirtualSubNodeInputNodeFactory#WrappedNode Input",
+                "nrexecs":3,
+                "nrfails":0,
+                "exectime":36,
+                "nrcreated":0,
+                "successor":"n/a"
+            },
+            {
+                "id":"org.knime.core.node.workflow.virtual.subnode.VirtualSubNodeOutputNodeFactory#WrappedNode Output",
+                "nrexecs":6,
+                "nrfails":0,
+                "exectime":7,
+                "nrcreated":0,
+                "successor":"n/a"
+            },
+            {
+                "id":"org.knime.base.node.preproc.createtablestructure.CreateTableStructureNodeFactory#Create Table Structure",
+                "nrexecs":0,
+                "nrfails":0,
+                "exectime":0,
+                "nrcreated":2,
+                "successor":"n/a"
+            },
+            {
+                "id":"org.knime.base.node.flowvariable.variableloophead.LoopStartVariableNodeFactory#Table Row To Variable Loop Start",
+                "nrexecs":6,
+                "nrfails":0,
+                "exectime":9,
+                "nrcreated":3,
+                "successor":"org.knime.core.node.workflow.virtual.subnode.VirtualSubNodeOutputNodeFactory#WrappedNode Output"
+            },
+            {
+                "id":"org.knime.ext.sun.nodes.script.node.ifswitch.JavaIfSwitchNodeFactory#Java IF (Table)",
+                "nrexecs":0,
+                "nrfails":0,
+                "exectime":0,
+                "nrcreated":1,
+                "successor":"n/a"
+            },
+            {
+                "id":"org.knime.json.node.container.output.table.ContainerTableOutputNodeFactory#Container Output (Table)",
+                "nrexecs":0,
+                "nrfails":0,
+                "exectime":0,
+                "nrcreated":1,
+                "successor":"n/a"
+            },
+            {
+                "id":"org.knime.json.node.container.input.table.ContainerTableInputNodeFactory#Container Input (Table)",
+                "nrexecs":1,
+                "nrfails":0,
+                "exectime":10,
+                "nrcreated":1,
+                "successor":"n/a"
+            },
+            {
+                "id":"org.knime.base.node.mine.treeensemble2.node.gradientboosting.learner.regression.GradientBoostingRegressionLearnerNodeFactory#Gradient Boosted Trees Learner (Regression)",
+                "nrexecs":1,
+                "nrfails":0,
+                "exectime":83490,
+                "nrcreated":0,
+                "successor":"n/a"
+            },
+            {
+                "id":"org.knime.base.node.mine.treeensemble2.node.gradientboosting.predictor.regression.GradientBoostingPredictorNodeFactory#Gradient Boosted Trees Predictor (Regression)",
+                "nrexecs":1,
+                "nrfails":0,
+                "exectime":42263,
+                "nrcreated":0,
+                "successor":"n/a"
+            },
+            {
+                "id":"org.knime.base.node.preproc.double2int2.DoubleToIntNodeFactory#Double To Int",
+                "nrexecs":1,
+                "nrfails":0,
+                "exectime":850,
+                "nrcreated":0,
+                "successor":"n/a"
+            },
+            {
+                "id":"org.knime.base.node.mine.scorer.numeric.NumericScorerNodeFactory#Numeric Scorer",
+                "nrexecs":1,
+                "nrfails":0,
+                "exectime":349,
+                "nrcreated":0,
+                "successor":"n/a"
+            },
+            {
+                "id":"org.knime.base.node.switches.emptytableswitch.EmptyTableSwitchNodeFactory#Empty Table Switch",
+                "nrexecs":0,
+                "nrfails":0,
+                "exectime":0,
+                "nrcreated":2,
+                "successor":"n/a"
+            },
+            {
+                "id":"org.knime.base.node.meta.looper.LoopEndNodeFactory#Loop End",
+                "nrexecs":90,
+                "nrfails":1,
+                "exectime":134,
+                "nrcreated":2,
+                "successor":"org.knime.base.node.preproc.rename.RenameNodeFactory#Column Rename"
+            },
+            {
+                "id":"org.knime.base.node.meta.looper.LoopStartCountNodeFactory#Counting Loop Start",
+                "nrexecs":90,
+                "nrfails":0,
+                "exectime":531,
+                "nrcreated":1,
+                "successor":"org.knime.base.node.meta.looper.LoopEndNodeFactory#Loop End"
+            },
+            {
+                "id":"org.knime.base.node.rules.engine.totable.RulesToTableNodeFactory#Ruleset to Table",
+                "nrexecs":0,
+                "nrfails":0,
+                "exectime":0,
+                "nrcreated":1,
+                "successor":"n/a"
+            },
+            {
+                "id":"org.knime.base.node.flowvariable.tablerowtovariable.TableToVariableNodeFactory#Table Row to Variable",
+                "nrexecs":1,
+                "nrfails":0,
+                "exectime":0,
+                "nrcreated":1,
+                "successor":"org.knime.base.node.io.tablecreator.TableCreator2NodeFactory#Table Creator"
+            },
+            {
+                "id":"org.knime.ext.jep.JEPNodeFactory#Math Formula",
+                "nrexecs":4,
+                "nrfails":0,
+                "exectime":38,
+                "nrcreated":1,
+                "successor":"org.knime.core.node.workflow.virtual.subnode.VirtualSubNodeOutputNodeFactory#WrappedNode Output"
+            },
+            {
+                "id":"org.knime.base.node.preproc.rename.RenameNodeFactory#Column Rename",
+                "nrexecs":3,
+                "nrfails":0,
+                "exectime":6,
+                "nrcreated":1,
+                "successor":"org.knime.ext.jep.JEPNodeFactory#Math Formula"
+            }
+        ],
+        "metaNodes":{
+        },
+        "wrappedNodes":{
+            "nrexecs":6,
+            "nrfails":3,
+            "exectime":5422,
+            "nrcreated":0
+        }
+    },
+    "uptime":1179770,
+    "workflowsOpened":1,
+    "remoteWorkflowsOpened":0,
+    "launches":4,
+    "lastApplicationID":"org.knime.product.KNIME_APPLICATION",
+    "timeSinceLastStart":352979,
+    "crashes":0,
+    "properlyShutDown":true
+}

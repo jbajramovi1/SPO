@@ -1,0 +1,57 @@
+
+{
+    "type":"object",
+    "properties":{
+        "single-selection-78:69":{
+            "type":"object",
+            "properties":{
+                "variable_value":{
+                    "type":"string",
+                    "default":"Wednesday "
+                }
+            },
+            "description":"Enter Description",
+            "example":{
+                "variable_value":"Wednesday "
+            }
+        },
+        "Day_Of_The_Month-78:68":{
+            "type":"object",
+            "properties":{
+                "variable_value":{
+                    "type":"string",
+                    "default":"4"
+                }
+            },
+            "description":"Day_Of_The_Month",
+            "example":{
+                "variable_value":"4"
+            }
+        },
+        "int-input-78:70":{
+            "type":"integer",
+            "default":2015,
+            "description":"Enter Description",
+            "example":2015
+        },
+        "single-selection-78:67":{
+            "type":"object",
+            "properties":{
+                "variable_value":{
+                    "type":"string",
+                    "default":"3"
+                }
+            },
+            "description":"Enter Description",
+            "example":{
+                "variable_value":"3"
+            }
+        },
+        "int-input-78:73":{
+            "type":"integer",
+            "default":88,
+            "description":"Enter Description",
+            "example":88
+        }
+    }
+}

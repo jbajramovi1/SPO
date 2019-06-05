@@ -7,7 +7,7 @@
 </config>
 <config key="model">
 <entry key="targetColumn" type="xstring" value="Count(UCR_PART)"/>
-<entry key="seed" type="xstring" value="1559152244553"/>
+<entry key="seed" type="xstring" value="1558463766674"/>
 <entry key="maxLevels" type="xint" value="-1"/>
 <entry key="minNodeSize" type="xint" value="-1"/>
 <entry key="minChildSize" type="xint" value="-1"/>
@@ -19,7 +19,7 @@
 <entry key="columnAbsolutePerTree" type="xint" value="10"/>
 <entry key="isUseDifferentAttributesAtEachNode" type="xboolean" value="false"/>
 <entry key="nrModels" type="xint" value="100"/>
-<entry key="splitCriterion" type="xstring" value="InformationGainRatio"/>
+<entry key="splitCriterion" type="xstring" value="Gini"/>
 <entry key="missingValueHandling" type="xstring" value="XGBoost"/>
 <entry key="useAverageSplitPoints" type="xboolean" value="true"/>
 <entry key="useBinaryNominalSplits" type="xboolean" value="true"/>
@@ -30,41 +30,42 @@
 <entry key="array-size" type="xint" value="6"/>
 <entry key="0" type="xstring" value="YEAR"/>
 <entry key="1" type="xstring" value="MONTH"/>
-<entry key="2" type="xstring" value="REGION"/>
-<entry key="3" type="xstring" value="DATE"/>
-<entry key="4" type="xstring" value="HOLIDAY"/>
+<entry key="2" type="xstring" value="DAY_OF_WEEK"/>
+<entry key="3" type="xstring" value="REGION"/>
+<entry key="4" type="xstring" value="DATE"/>
 <entry key="5" type="xstring" value="Temperature"/>
 </config>
 <config key="excluded_names">
-<entry key="array-size" type="xint" value="1"/>
-<entry key="0" type="xstring" value="Count_CATEGORIES"/>
+<entry key="array-size" type="xint" value="0"/>
 </config>
-<entry key="enforce_option" type="xstring" value="EnforceInclusion"/>
+<entry key="enforce_option" type="xstring" value="EnforceExclusion"/>
 <config key="name_pattern">
 <entry key="pattern" type="xstring" value=""/>
-<entry key="type" type="xstring" value="Regex"/>
-<entry key="caseSensitive" type="xboolean" value="false"/>
+<entry key="type" type="xstring" value="Wildcard"/>
+<entry key="caseSensitive" type="xboolean" value="true"/>
 </config>
 <config key="datatype">
 <config key="typelist">
-<entry key="org.knime.core.data.StringValue" type="xboolean" value="false"/>
 <entry key="org.knime.core.data.IntValue" type="xboolean" value="false"/>
-<entry key="org.knime.core.data.BooleanValue" type="xboolean" value="false"/>
+<entry key="org.knime.core.data.StringValue" type="xboolean" value="false"/>
 <entry key="org.knime.core.data.DoubleValue" type="xboolean" value="false"/>
+<entry key="org.knime.core.data.BooleanValue" type="xboolean" value="false"/>
 <entry key="org.knime.core.data.LongValue" type="xboolean" value="false"/>
 <entry key="org.knime.core.data.date.DateAndTimeValue" type="xboolean" value="false"/>
 </config>
 </config>
 </config>
 <entry key="ignoreColumnsWithoutDomain" type="xboolean" value="true"/>
-<entry key="nrHilitePatterns" type="xint" value="-1"/>
+<entry key="nrHilitePatterns" type="xint" value="0"/>
 <entry key="saveTargetDistributionInNodes" type="xboolean" value="false"/>
 <entry key="rowSamplingMode" type="xstring" value="Random"/>
+<entry key="learningRate" type="xdouble" value="0.01"/>
+<entry key="alphaFraction" type="xdouble" value="0.95"/>
 </config>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
-<entry key="state" type="xstring" value="CONFIGURED"/>
-<entry key="factory" type="xstring" value="org.knime.base.node.mine.treeensemble2.node.learner.regression.TreeEnsembleRegressionLearnerNodeFactory"/>
-<entry key="node-name" type="xstring" value="Tree Ensemble Learner (Regression)"/>
+<entry key="state" type="xstring" value="EXECUTED"/>
+<entry key="factory" type="xstring" value="org.knime.base.node.mine.treeensemble2.node.gradientboosting.learner.regression.GradientBoostingRegressionLearnerNodeFactory"/>
+<entry key="node-name" type="xstring" value="Gradient Boosted Trees Learner (Regression)"/>
 <entry key="node-bundle-name" type="xstring" value="Decisions Tree Ensembles for KNIME"/>
 <entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.base.treeensembles2"/>
 <entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
@@ -74,25 +75,22 @@
 <entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
 <entry key="node-feature-version" type="xstring" value="3.7.2.v201904171038"/>
 <config key="factory_settings"/>
-<entry key="name" type="xstring" value="Tree Ensemble Learner (Regression)"/>
-<entry key="hasContent" type="xboolean" value="false"/>
+<entry key="name" type="xstring" value="Gradient Boosted Trees Learner (Regression)"/>
+<entry key="hasContent" type="xboolean" value="true"/>
 <entry key="isInactive" type="xboolean" value="false"/>
 <config key="ports">
 <config key="port_1">
 <entry key="index" type="xint" value="1"/>
-<entry key="port_dir_location" type="xstring" isnull="true" value=""/>
-</config>
-<config key="port_2">
-<entry key="index" type="xint" value="2"/>
-<entry key="port_dir_location" type="xstring" isnull="true" value=""/>
-</config>
-<config key="port_3">
-<entry key="index" type="xint" value="3"/>
-<entry key="port_dir_location" type="xstring" isnull="true" value=""/>
+<entry key="port_spec_class" type="xstring" value="org.knime.base.node.mine.treeensemble2.model.TreeEnsembleModelPortObjectSpec"/>
+<entry key="port_object_class" type="xstring" value="org.knime.base.node.mine.treeensemble2.model.GradientBoostingModelPortObject"/>
+<entry key="port_object_summary" type="xstring" value="Gradient Boosting Model"/>
+<entry key="port_spec_location" type="xstring" value="spec/spec.zip"/>
+<entry key="port_object_location" type="xstring" value="object/portobject.zip"/>
+<entry key="port_dir_location" type="xstring" value="port_1"/>
 </config>
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" isnull="true" value=""/>
+<entry key="file_store_id" type="xstring" value="88e111ba-3963-4da4-a061-7309f97285cd"/>
 </config>
 </config>
